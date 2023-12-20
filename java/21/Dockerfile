@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH amazoncorretto:21
+FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:21-jre-jammy
 
 LABEL       author="Max Atslega" maintainer="max@atslega.dev"
 
