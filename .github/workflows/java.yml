@@ -35,7 +35,7 @@ jobs:
           buildkitd-flags: --debug
       - uses: docker/login-action@v2
         with:
-          registry: ghcr.io
+          registry: pcr.atslega.network
           username: ${{ github.repository_owner }}
           password: ${{ secrets.REGISTRY_TOKEN }}
       - uses: docker/build-push-action@v4
