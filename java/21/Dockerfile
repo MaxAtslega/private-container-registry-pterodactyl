@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH amazoncorretto:21-alpine-full
+FROM        --platform=$TARGETOS/$TARGETARCH amazoncorretto:21
 
 LABEL       author="Max Atslega" maintainer="max@atslega.dev"
 
